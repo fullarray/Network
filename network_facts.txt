@@ -144,3 +144,41 @@ IPX/SPX - RIP,SAP,NLSP - 12 digit hexadecimal - server names only; 64 charaters,
 NetBEUI - unroutable - ... - netBIOS or computer names; WINS - windows
 AppleTalk - version1: unroutable, version2: RTMP - 24-bit address - version1:NBP, version2:IP naming - ethernet: ELPA; Token ring: token
 TCP/IP - RIP, OSPF - 32-bit address - DNS, ARP, RARP - Windows, UNIX, Linux, MAC, Novell
+
++++++++++++++++++++++++++++++++++++
+Digital transmission hierarchies
+--------------------------------
+T1 - 24 - 1.544Mbps - North American
+T3 - 672 - 44.736Mbps - North American
+E1 - 32 - 2.048Mbps - European
+E3 - 480 - 34.368Mbps - European
+J1 - 24 - 1.544Mbps - Japanese
+J3 - 480 - 32.064Mbps - Japanese
+
++++++++++++++++++++++++++++++++++++
+Optical carriers
+----------------
+OC-1 - 51.84Mbps
+OC-3 - 155.52Mbps
+OC-12 - 622.08Mbps
+OC-24 - 1.244Gbps
+OC-48 - 2.488Gbps
+
++++++++++++++++++++++++++++++++++++
+xDSL Technologies
+-----------------
+ADSL - 18000ft - 1.544Mbps ~ 6.1Mbps - 126kbps ~ 640kbps - Most popular, used for web access and multimedia streaming
+SDSL - 12000ft - 1.544Mbps(US), 2.048Mbps(EU) - 1.544Mbps(US), 2.048Mbps(EU) - WAN connection form company network server to phone co.
+HDSL - 12000ft - 1.544Mbps(2p), 2.05Mbps(3p) - 1.544Mbps(2p), 2.05Mbps(3p) - WAN connection from company network server to phone co.
+IDSL - 18000ft - 128kbps - 128kbps - Transmits data only, similar to ISDN BRI
+CDSL - 18000ft - 1.544Mbps - <1.544Mbps - Used in home and small business; no spitter, known as G lite
+RADSL - n/a - 640kbps ~ 2.2Mbps - 270kbps ~ 1.1Mbps - Same as ADSL
+VDSL - 4500ft - 1.6Mbps ~ 53Mbps - 1.5Mbps ~ 2.3Mbps - ATM networks using fiber optic cable
+
++++++++++++++++++++++++++++++++++++
+TCP/IP protocol suite 
+---------------------
+TCP - transmission control protocol - Enables two hosts to establish connection and exchange network data, connection-oriented.
+UDP - user datagram protocol - enables two hosts to establish connection and exchange network data; connectionless
+FTP - file transfer protocol - downloads or uploads files between hosts; performs directory operations; also offers authentication sec.
+...
